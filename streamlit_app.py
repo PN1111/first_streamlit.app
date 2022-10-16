@@ -1,7 +1,7 @@
 import streamlit
 import pandas
 import requests
-imort snowflake.connector
+import snowflake.connector
 from urllib.error imort URLError
 
 streamlit.title('Breakfast Favourites')
