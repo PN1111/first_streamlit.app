@@ -40,7 +40,7 @@ try:
     # write your own comment - what does this do?
     s.treamlit.dataframe(fruityvice_normalized)
    
-Except URLError as e:
+except URLError as e:
     streamlit.error()
 
 # dont run anythyng past here while while we troubleshoot
